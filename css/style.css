@@ -1,0 +1,406 @@
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li a{
+    list-style: none;
+    color: #ababab;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px;
+}
+strong{
+    color: #1D2B4F;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin:0 5px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 196%;
+}
+span{
+    color: #F23802;
+font-family: Josefin Sans;
+font-size: 78px;
+font-style: normal;
+font-weight: 700;
+}
+h1{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 78px;
+font-style: normal;
+font-weight: 700;
+text-decoration: none;
+}
+h2{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+text-decoration: none;
+}
+h5{
+    color: #1D2B4F;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom:13px;
+text-decoration: none;
+}
+h4{
+    color: #1D2B4F;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+text-decoration: none;
+}
+.grey{
+    color: #ababab;
+}
+h3{
+    text-decoration: none;
+    color: #000;
+font-family: Josefin Sans;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%;
+}
+p{
+    color: #939393;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 196%;
+margin: 0;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+}
+.btn{
+    margin-top: 15px;
+    background-color: #F1F1F1;
+    padding: 13px 22px 13px 46px;
+    color: #000;
+font-family: Josefin Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+}
+.btn:hover{
+    background-color:#F1F1F1;
+}
+/* .banner-left{
+    padding: 102px 0 143px 0;
+} */
+.banner-left h6{
+    max-width: 464px;
+}
+.banner-right{
+    overflow: hidden;
+    max-width: 52.2%;
+    --bs-aspect-ratio: 94%;
+}
+
+
+.toggle{
+   
+    z-index: 11;
+    display: block;
+    width: 100px;
+    background-color: #F23802;
+    height: 100px;
+    border-radius: 0 0 0 100%;
+    cursor: pointer;
+}
+.line1,.line3{
+    position: relative;
+    z-index: 111;
+    width: 30px;
+    height: 3px;
+    color: #fff;
+    background: #fff;
+    transition: all ease .5s;
+}
+.line2{
+    position:relative;
+    z-index: 111;
+    background: #fff;
+    width: 30px;
+    height: 3px;
+    margin: 3px 0;
+    color: #fff;
+}
+
+.toggle-menu{
+    position: fixed;
+    z-index: 9;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(242, 56, 2, 0.7);
+    border-radius: 0 0 0 100%;
+    transition: all ease 0.5s;
+}
+.open-menu .toggle-menu {
+    width: 52.2%;
+    height: 100%;
+}
+.toggle-menu ul {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-50%);
+    transition: all ease 0.5s;
+}
+.open-menu .toggle-menu ul {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+.toggle-menu ul li a:hover{
+    color: #000;
+}
+.toggle-menu ul li a{
+    text-decoration: none;
+    color:#fff;
+font-family: Inter;
+font-size:32px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%;
+}
+.open-menu .toggle .line2{
+    display: none;
+}
+.open-menu .toggle .line1{
+  transform: rotate(45deg);
+  top: 3px;
+ background-color:#F23802;
+}
+.open-menu .toggle .line3{
+    transform: rotate(-45deg);
+    background-color:#F23802;
+  }
+  .open-menu .toggle{
+    background-color: #fff;
+  }
+
+.banner-content-wrapper {
+    transform: translateY(-50%);
+}
+#company{
+    padding: 93px 0;
+    background: #F5E2D4;
+
+}
+.market-right h2 span{
+    color: #F23802;
+font-family: Josefin Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+}
+.market-right ul{
+    list-style: none;
+    padding: 0;
+}
+.market-right ul li span{
+    font-size: 28px;
+}
+.market-right ul li{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+#marketing{
+    padding: 140px 0;
+}
+.market-right p{
+    max-width: 547px;
+}
+.orange{
+    border-radius: 5px;
+background: #F23802;
+padding:16px 30px;
+color: #FFF;
+font-family: Josefin Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+}
+#skills{
+padding: 106px 0;
+background: #FAFAFA;
+}
+.skill-card1{
+    border-left: solid 2px #F23802;
+    padding-left: 42px;
+}
+.skill-card1 p{
+    max-width: 293px;
+}
+.fa-long-arrow-right{
+   font-size: 30px !important;
+}
+.business-left h2 span,.design-skill h2 span,.team-title h2 span,.patient-title h2 span,.news-title h2 span{
+    font-size: 48px;
+}
+#business{
+    margin:140px 0 103px 0;
+}
+.business-left p{
+line-height: 196% !important;
+}
+#contact{
+    padding: 88px 0;
+    background: #F5E2D3;
+}
+.contact-left p{
+    color: #474747;
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 196%;
+}
+
+#rules{
+    padding-bottom: 140px;
+}
+.team-title p{
+    max-width: 474px;
+}
+#team{
+    padding-bottom: 140px;
+}
+#Patient{
+    padding-bottom: 140px;
+}
+.patient-img{
+    overflow: hidden;
+    max-width: 87%;
+    --bs-aspect-ratio: 74%;
+}
+.patient-text{
+    max-width: 508px;
+}
+.patient-text h5{
+    color: #000;
+font-family: Josefin Sans;
+font-size: 30px;
+font-style: italic;
+font-weight: 500;
+line-height: 40px;
+}
+.news-image{
+    overflow: hidden;
+    max-width: 82%;
+    --bs-aspect-ratio: 98%;
+    cursor: pointer;
+}
+
+.team-imgae{
+    max-width: 87%;
+    overflow: hidden;
+    --bs-aspect-ratio: 100%;
+}
+.rule-image{
+    max-width: 100%;
+    overflow: hidden;
+    --bs-aspect-ratio: 134%;
+}
+.team-text{
+    max-width: 87%;
+}
+#news{
+    padding-bottom: 90px;
+}
+#footer{
+    padding-top: 80px;
+    background: #111502;
+}
+
+.rules1 h5{
+    letter-spacing: 2.24px;
+   
+}
+.news-card h4{
+    text-decoration: underline;
+}
+.news-card h5{
+width: auto;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.news-card h4 a{
+    color: #304050;
+font-family: Josefin Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; 
+text-decoration-line: underline;
+}
+.patient-slider{
+    width: 30%;
+}
+.slide-item{
+    width: 57px !important;
+}
+
+.left-arrow i,.right-arrow i{
+    font-size:30px;
+}
+.market-right ul li{
+    display: flex;
+    width: 90%;
+    column-gap: 10px;
+    
+}
+.market-right ul li span{
+    display:flex;
+    width: 10%;
+}
+

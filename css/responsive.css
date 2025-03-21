@@ -1,0 +1,400 @@
+@media screen and (max-width:1399px) {
+    .skill-card1 h3 {
+        font-size: 32px !important;
+        margin-top: 8px;
+    }
+
+    .contact-left h2,
+    .design-skill h2 {
+        font-size: 42px;
+    }
+
+    .toggle-menu ul li a {
+        font-size: 24px !important;
+    }
+
+    .patient-img {
+        overflow: hidden;
+        max-width: 100% !important;
+        --bs-aspect-ratio: 100%;
+    }
+
+    .patient-slider {
+        width: 35% !important;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .patient-slider {
+        width: 44% !important;
+    }
+
+    #Patient .row {
+        align-items: center;
+    }
+
+    .banner-left h1 {
+        font-size: 42px;
+    }
+
+    span {
+        font-size: 42px;
+    }
+
+    .banner-left h6 {
+        max-width: 350px;
+        padding-bottom: 30px !important;
+    }
+
+    #marketing {
+        padding: 70px 0;
+    }
+
+    .skill-card1 h3 {
+        font-size: 25px !important;
+    }
+
+    #skills {
+        padding: 70px 0;
+    }
+
+    #business {
+        margin: 70px 0;
+    }
+
+    .business-content {
+        margin-top: 30px;
+        position: initial !important;
+    }
+
+    .design-skill h2 {
+        font-size: 38px !important;
+    }
+
+    .design-skill p {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    #team,
+    #Patient,
+    #rules {
+        padding-bottom: 70px;
+    }
+
+    .patient-title {
+        margin-bottom: 0px !important;
+    }
+
+    .news-title {
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .open-menu .toggle-menu {
+        width: 100%;
+
+    }
+
+    .skill-design2 {
+        align-items: start !important;
+    }
+
+    .open-menu .toggle-menu {
+        border-radius: 0 0 0 80%;
+    }
+
+    h3 {
+        font-size: 28px !important;
+    }
+
+    h2 {
+        font-size: 36px !important;
+    }
+
+    body {
+        padding-top: 100px;
+    }
+
+    .banner-left h6 {
+        max-width: 320px;
+    }
+
+    #company {
+        padding: 40px 0;
+    }
+
+    .market-right {
+        margin-top: 30px;
+    }
+
+    .team-title p {
+        max-width: 350px;
+    }
+
+    .team-text {
+        row-gap: 10px !important;
+        display: block !important;
+    }
+
+    .team-text-left p {
+        margin: 5px 0;
+    }
+
+    .team-imgae,
+    .news-image {
+        max-width: 100%;
+        overflow: hidden;
+        --bs-aspect-ratio: 100%;
+    }
+
+    .patient-img {
+        overflow: hidden;
+        max-width: 100%;
+        --bs-aspect-ratio: 74%;
+    }
+
+    .news-card p {
+        margin-bottom: 5px !important;
+    }
+
+    .patient-slider {
+        width: 30% !important;
+    }
+
+    .skill-card1{
+        margin-top:0 !important;
+        padding-left: 0 !important;
+        border-left: none;
+        padding: 20px 0;
+    }
+    .border-btm{
+        border-bottom: solid 2px #F23802;
+        border-top: solid 2px #F23802;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .banner-content-wrapper {
+        position: initial !important;
+    }
+
+    .logo {
+        padding-top: 30px !important;
+    }
+
+    
+    .banner-content-wrapper {
+        transform: initial !important;
+    }
+
+    .banner-right {
+        max-width: 100%;
+    }
+
+    .contact-right {
+        justify-content: start !important;
+        margin-top: 5px !important;
+    }
+
+    #contact {
+        padding: 40px 0;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    .team-title,
+    .copy-right {
+        flex-wrap: wrap;
+    }
+
+    .team-title p {
+        max-width: 100% !important;
+    }
+
+    .patient-slider {
+        width: 38% !important;
+    }
+    #banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-right{
+        order: -1;
+    }
+    .banner-left{
+        margin-top: 24px !important;
+    }
+}
+
+@media screen and (max-width:567px) {
+    .design-skill h2 {
+        font-size: 24px !important;
+    }
+
+    span {
+        font-size: 24px !important;
+
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    .footer1 {
+        align-items: start !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    #footer .row {
+        row-gap:40px !important;
+        display: flex;
+        padding:15px 0 !important;
+    }
+
+    .main {
+        gap: 30px !important;
+        flex-wrap: wrap;
+    }
+
+   
+    .open-menu .toggle-menu {
+        width: 100%;
+        height: 300px;
+    }
+
+    .toggle-menu ul li a {
+        font-size: 16px !important;
+    }
+
+    .orange {
+        padding: 9px 14px;
+    }
+
+    .btn {
+        padding: 9px 14px;
+
+    }
+
+    .patient-slider {
+        width: 64% !important;
+    }
+
+    .patient-text h5 {
+        font-size: 16px !important;
+        margin-bottom: 30px !important;
+        line-height: normal !important;
+
+    }
+
+    p {
+        font-size: 16px !important;
+        line-height: normal;
+    }
+
+
+    .business-left p {
+        font-size: 16px !important;
+        line-height: normal !important;
+    }
+
+    /* changes */
+    .logo{
+        padding-top: 15px !important;
+    }
+    .toggle,.toggle-menu{
+        width: 80px;
+        height: 80px;
+        background-color: #F23802;
+    }
+    .toggle-menu ul li{
+        line-height: normal !important;
+    }
+    h1{
+        font-size: 32px !important;
+    }
+
+    .banner-left h6{
+        padding-bottom: 0 !important;
+    }
+  
+    body{
+        padding-top: 80px;
+    }
+   
+    #marketing{
+        padding: 30px 0;
+    }
+    .market-right p{
+        margin: 15px 0 !important;
+    }
+   
+    #skills{
+        padding: 30px 0;
+    }
+    #business{
+        margin: 30px 0 !important;
+    }
+    .business-left h2{
+        margin-bottom: 0 !important;
+    }
+    .business-middle{
+        margin-right: 15px !important;
+    }
+    #contact{
+        padding: 30px 0 !important;
+    }
+    .contact-left p{
+        line-height: normal !important;
+    }
+    #vedio .row{
+        margin-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .skill-design2 ul{
+        margin-top: 10px !important;
+    }
+   
+    li{
+       line-height: normal !important;
+      font-size: 16px ;
+    }
+    .rules1{
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    #rules{
+        padding-bottom: 30px !important;
+    }
+    .team-title{
+        margin-bottom: 15px !important;
+    }
+    .team-text-right a img{
+        width: 15px !important;
+        height: 15px !important;
+    }
+    #team, #Patient{
+        padding-bottom: 30px !important;
+    }
+    #news{
+        padding-bottom: 30px !important;
+    }
+    #footer{
+        padding-top: 30px !important;
+    }
+    .footer1 li a{
+      line-height: normal !important;
+    }
+    .footer1 h4{
+        margin-bottom: 10px !important;
+    }
+}
